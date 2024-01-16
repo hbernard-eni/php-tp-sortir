@@ -1,0 +1,46 @@
+/* Police Roboto thin 300 
+* https://fonts.google.com/specimen/Roboto
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body {
+	margin: 1em;	
+}	
+
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+h2 > a { 
+	color: #134a80;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+h2 > a:hover { 
+	text-decoration: underline;
+}
+
+#droite {
+	background-color: #CCC;
+}	
+
+.bg-theme, .btn-theme {
+	background-color: #134a80;
+}
+
+a.btn-theme {
+	background-color: #134a80;		
+	color: #FFF;
+    text-decoration: none;	
+}	
+
+a.btn-theme:hover {
+	color: #FFF; 	 
+	text-decoration: underline;
+}	
+
+.thumbnail-border {
+	border: 1px solid #134a80;
+}
